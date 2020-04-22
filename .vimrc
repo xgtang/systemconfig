@@ -49,3 +49,12 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+set directory=~/.vim/temp/swp/
+set backupdir=~/.vim/temp/backup/
+
+"tab为空格
+set tabstop=3
+set softtabstop=3
+set shiftwidth=3
+set expandtab
+
